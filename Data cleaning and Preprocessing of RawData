@@ -1,0 +1,30 @@
+✅ Cleaned Dataset Summary:
+📦 Original Dataset (Raw) Issues Contained missing values in key columns like Income and Dt_Customer had duplicate records.
+
+Text fields (e.g., Education, Marital_Status) had inconsistent casing and spaces.
+
+Dates were not standardized (some unreadable or misformatted).
+
+Column names were inconsistent (e.g., uppercase, spaces).
+
+Data types were incorrect for some fields (e.g., income as string, date as object).
+
+🧹 What We Did – Cleaning & Preprocessing
+
+Steps:
+1️⃣	Removed rows with missing critical values (Income, Dt_Customer).
+2️⃣	Removed duplicate rows to ensure each customer is unique.
+3️⃣	Standardized text fields by lowercasing and trimming extra spaces.
+4️⃣	Converted Dt_Customer to proper datetime format (dd-mm-yyyy).
+5️⃣	Renamed all columns to lowercase and used underscores instead of spaces for consistency.
+6️⃣	Ensured correct data types (e.g., Year_Birth as int, Income as float, Dt_Customer as datetime).
+7️⃣	Resized the Dt_Customer column in Excel so dates are visible.
+
+📊 Cleaned Dataset Now Includes:
+✅ Accurate and consistent column formatting
+
+✅ Proper data types for all fields
+
+✅ Clean, ready-to-use customer behavior data
+
+✅ Usable for segmentation, analytics, or modeling.
