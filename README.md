@@ -50,6 +50,25 @@ The cleaned dataset was used to generate visual insights, including:
 
 These visualizations are available in the `Customer_Insights_Dashboard.pdf` and `Customer_Insights_Charts.pdf` files.
 
+📷 Preview
+Add a visual of your dashboard or one of your charts here:
+![Customer_Insights_Dashboard_page-0001](https://github.com/user-attachments/assets/01fdcf03-0f33-413b-b3f7-044cd83045ec)
+
+
+
+📌 Future Work
+This project lays the foundation for deeper customer analytics. Possible next steps:
+
+🔍 Perform clustering (e.g., K-Means) for customer segmentation using Python.
+
+📈 Build an interactive dashboard using Power BI or Tableau.
+
+🤖 Apply predictive models to forecast customer response or churn.
+
+📤 Automate data cleaning using Python (Pandas).
+
+
+
 ---
 
 ## 📬 Contact
