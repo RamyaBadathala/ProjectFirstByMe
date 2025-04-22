@@ -1,0 +1,107 @@
+I’ll perform visual analysis on the following:
+>Age Distribution
+>Income vs Spending
+>Spending by Marital Status & Education
+>Top Spending Segments
+>Purchase Channel Preferences
+>Customer Segmentation Insights
+
+
+
+# 📊 EDA & Visual Descriptions Based on Dashboard
+
+This provides detailed explanations of each visual shown in the Power BI dashboard, including how the data was prepared (EDA) and what insight each chart reveals.
+
+---
+
+## 1️⃣ Age Distribution
+
+### 📈 Chart Type: Bar Chart
+### 🧹 EDA:
+- Created a new column `Age = 2024 - Year_Birth`
+- Filtered out customers with unrealistic ages (e.g., > 90 or < 18)
+- Grouped ages into bins (e.g., 20–29, 30–39, etc.)
+
+### 💡 Insight:
+- Most customers fall between ages 30 and 60.
+- Ideal target segment for mid-life family products and promotions.
+
+---
+
+## 2️⃣ Income vs Spending by Marital Status
+
+### 📈 Chart Type: Scatter Plot
+### 🧹 EDA:
+- Removed nulls from the `Income` column
+- Created a new feature `Total_Spending` by summing:
+  - Wines, Fruits, Meat, Fish, Sweets, Gold
+- Used `Marital_Status` as a category
+
+### 💡 Insight:
+- Spending doesn't always increase with income
+- Married and partnered customers tend to spend more across all income levels
+
+---
+
+## 3️⃣ Spending by Education Level
+
+### 📈 Chart Type: Box Plot
+### 🧹 EDA:
+- Grouped data by `Education`
+- Used `Total_Spending` as the metric
+- Removed outliers using IQR filtering for better distribution
+
+### 💡 Insight:
+- Customers with Graduation or PhD tend to spend more
+- Target high-spending segments through educational-based messaging
+
+---
+
+## 4️⃣ Purchase Behavior by Channel
+
+### 📈 Chart Type: Grouped Bar Chart
+### 🧹 EDA:
+- Aggregated values from:
+  - `NumWebPurchases`, `NumCatalogPurchases`, `NumStorePurchases`, `NumDealsPurchases`
+- Calculated average purchases per channel
+
+### 💡 Insight:
+- In-store shopping dominates customer behavior
+- Web and catalog channels have potential for targeted growth
+
+---
+
+## 5️⃣ Web Visits per Month
+
+### 📈 Chart Type: Box Plot
+### 🧹 EDA:
+- Used column `NumWebVisitsMonth`
+- Visualized using a box plot to identify spread and outliers
+
+### 💡 Insight:
+- Most customers visit websites 2–8 times/month
+- Some customers are very active online — great for retargeting campaigns
+
+---
+
+## 6️⃣ KPIs (Cards)
+
+### 📈 Elements: Numeric KPI Cards
+### 🧹 EDA:
+- Calculated:
+  - Average Age
+  - Total Spending per Customer
+  - Total Customers
+  - Percentage of customers with children
+
+### 💡 Insight:
+- High-level metrics offer a quick executive overview of customer base
+- Supports segmentation and decision-making strategies
+
+---
+
+
+
+
+
+
